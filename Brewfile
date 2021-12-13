@@ -21,3 +21,6 @@ cask "font-roboto"
 cask "mactex"
 cask "qlvideo"
 cask "webpquicklook"
+cask "visual-studio-code"
+cask "iterm2"
+
