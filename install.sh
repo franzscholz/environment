@@ -46,6 +46,10 @@ brew bundle install --force
 rm -f ${dest_dir}/.bashrc
 ln -s ${script_dir}/.bashrc ${dest_dir}/.bashrc
 
+# Install the .bash_profile
+rm -f ${dest_dir}/.bash_profile
+ln -s ${script_dir}/.bash_profile ${dest_dir}/.bash_profile
+
 # TODO: Add oh-my-zsh installation.
 if [ ! -d ~/.oh-my-zsh ] ; then
     git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
