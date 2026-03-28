@@ -1,3 +1,8 @@
+# This is obsolete
+
+The environment is now managed with chezmoi. The files
+repository is in https://github.com/franzscholz/dotfiles.
+
 # Environment
 Configuration files for my working environment
 
